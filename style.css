@@ -19,10 +19,15 @@ flex-direction: column;
 .icons{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-betwee;
 align-items: center;
+flex: 1;
 
 }
+.icon{
+    padding: 5px;
+}
+
 .navbar{
  position: absolute;
 left: 0px;
