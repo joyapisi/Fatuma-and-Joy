@@ -19,6 +19,8 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 10px;
+    top: 10px;
 }
 .icons{
 display: flex;
