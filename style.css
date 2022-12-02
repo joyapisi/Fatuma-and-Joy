@@ -16,8 +16,15 @@ flex-direction: column;
     flex-direction: row;
     justify-content: space-between;
 }
+.icons{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
 .navbar{
-     position: absolute;
+ position: absolute;
 left: 0px;
 right: 0px;
 top: 44px;
@@ -28,6 +35,7 @@ ul{
     list-style: none;
 }
 .nav-container .navbar-brand{
+
 width: 76px;
 height: 20px;
 font-family: 'Poppins';
@@ -46,13 +54,41 @@ text-align: center;
 
 color: #6070FF;
 }
-
+.main{
+    display: flex;
+    height:70%;
+    margin-top: 30%;
+}
 .mobile {
 display: flex;
 flex-direction: column;
 justify-content: center;
-
+margin-left: 5%;
+margin-right: 10%;
+margin-bottom: 10px;
+margin-top: 15%;
 }
+#paragraph2
+{
+display: flex;
+color: #6070FF;
+font-weight: bold;
+}
+
+
+.mobile .heading{
+    display: flex;
+    justify-content: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+}
+
 
 h1 {
 width: 327px;
@@ -82,60 +118,15 @@ order: 0;
 flex-grow: 0;
 }
 
-#paragraph {
-    width: 327px;
-height: 146px;
-
-/* Body / 2 */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
 
 
-/* Neutrals/N600 */
-
-color: #344563;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-}
-
-#paragraph2 {
-    width: 117px;
-height: 24px;
-
-/* Body / 2 - Bolder */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-
-/* Primary/B300 */
-
-color: #7F8CFF;
-
-}
-
-.social-media {
+.mobile .social-media {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
 width: 170.17px;
 height: 20px;
 
 
-/* Inside auto layout */
 
-flex: none;
-order: 3;
-flex-grow: 0;
 }
