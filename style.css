@@ -109,6 +109,7 @@ line-height: 52px;
 display: flex;
 align-items: center;
 color: #172B4D;
+margin-left: 0%;
 }
 
 
@@ -152,7 +153,9 @@ height: 20px;
 
 
 }
-.p{
+#paragraph1{
     font-family: 'Poppins';
+    color: #344563;
+
 
 }
