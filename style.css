@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(Fonts/Poppins.ttf);
+}
+.appbar {
+position: absolute;
+width: 375px;
+height: 92px;
+left: 0px;
+top: 0px;
+display: flex;
+flex-direction: column;
+}
+.appbar .status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar{
+     position: absolute;
+left: 0px;
+right: 0px;
+top: 44px;
+bottom: 0px;
+
+}
+ul{
+    list-style: none;
+}
+.nav-container .navbar-brand{
+width: 76px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary/B400 */
+
+color: #6070FF;
+}
+
