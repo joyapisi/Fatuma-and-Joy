@@ -349,7 +349,7 @@ h1 {
   /* Neutrals/N600 */
   color: #344563;
   /* Inside auto layout */
-    flex: none;
+  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -462,26 +462,25 @@ h1 {
   margin-left: -11px;
  }
 
- .seeproject {
-height: 24px;
-/* Button /Normal */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-/* identical to box height, or 141% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-/* Primary/B500 */
-color: #396DF2;
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.seeproject {
+  height: 24px;
+  /* Button /Normal */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* Primary/B500 */
+  color: #396DF2;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
  }
 
  .aboutme {
@@ -489,19 +488,22 @@ flex-grow: 0;
   position: absolute;  
   width: 375px;
   height: 1125.15px;
-  left: calc(50% - 375px/2);
-  top: 3506px;
   margin-left: 24px;
-}
-
- .aboutme .top {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 12px;
-  width: 327px;
-  height: 409px;
+  align-items: center;
+  padding: 114px 24px;
+  margin-top: 170%;
+ }
+
+.aboutme .top {
+  gap: 24px;
+  position: absolute;  
+  width: 375px;
+  height: 1125.15px;
+  left: calc(50% - 375px/2);
+  margin-left: 24px;
+  margin-top: 170%;
  }
 
  .aboutme .heading {
@@ -518,6 +520,7 @@ flex-grow: 0;
   align-items: center;
   /* Neutrals/N800 */
   color: #172b4d;
+  margin-top: 170%;
  }
 
 #aboutme-paragraph {
@@ -553,30 +556,21 @@ flex-grow: 0;
 }
   
 .secondheading5 {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 8px;
-width: 117px;
-height: 24px;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-
-.frame1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  width: 200px;
-  height: 40px; 
+  gap: 8px;
+  width: 117px;
+  height: 24px;
   /* Inside auto layout */
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
+}
+
+.skills .frame1 {
+ 
 }
 
 .action .normalbutton2 {
