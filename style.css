@@ -662,7 +662,7 @@ h1 {
   transform: rotate (90 deg);
 }
 
-.languages {
+#languages {
   position: absolute;
   height: 24px;
   left: 36px;
@@ -830,6 +830,8 @@ h1 {
 .frame8 {
   width: 327px;
   height: 72px;
+  top: 867.15px;
+  left: 24px;
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -839,9 +841,9 @@ h1 {
 .seperator1 {
   position: absolute;
   height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  left: 24px;
+  right: 24px;
+  bottom: 323.85px;
   /* Neutrals/N40 */
   background: #DFE1E6;
 }
@@ -854,17 +856,17 @@ h1 {
   position: absolute;
   width: 40px;
   height: 40px;
-  right: 26px;
-  top: calc(50% - 40px/2);
+  right: 50px;
+  top: 883.15px;
   border-radius: 8px;
 }
 
 .frameworks {
   position: absolute;
   height: 24px;
-  left: 12px;
-  right: 78px;
-  top: calc(50% - 24px/2)
+  left: 36px;
+  right: 102px;
+  top: 891.15px;
   /* Body / 1 - Bolder */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -880,6 +882,8 @@ h1 {
 .frame9 {
   width: 327px;
   height: 72px;
+  top: 939.15px;
+  left: 24px;
   /* Inside auto layout */
   flex: none;
   order: 2;
@@ -889,9 +893,9 @@ h1 {
 .seperator2 {
   position: absolute;
   height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  left: 24px;
+  right: 24px;
+  bottom: 251.85px;
   /* Neutrals/N40 */
   background: #DFE1E6;
 }
@@ -904,17 +908,17 @@ h1 {
   position: absolute;
   width: 40px;
   height: 40px;
-  right: 26px;
-  top: calc(50% - 40px/2);
+  right: 50px;
+  top: 955.15px;
   border-radius: 8px;
 }
 
 .skills {
   position: absolute;
   height: 24px;
-  left: 12px;
-  right: 78px;
-  top: calc(50% - 24px/2); 
+  left: 36px;
+  right: 102px;
+  top: 963.15px; 
   /* Body / 1 - Bolder */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
