@@ -555,7 +555,6 @@ h1 {
 }
   
 .socialmedia .secondheading5 {
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -569,10 +568,7 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-  /* Primary/B300 */
   color: hsl(234, 100%, 75%);
-
 }
 
 .frameicons {
@@ -634,33 +630,44 @@ h1 {
 .frame7 {
   width: 327px;
   height: 72px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 547px;
+  left: 24px;
 }
 
 #languages-seperator {
-  
+  position: absolute;
+  visibility: hidden;
+  height: 1px;
+  left: 24px;
+  right: 24px;
+  bottom: 664px;
+  /* Neutrals/N40 */
+  background: #DFE1E6;
 }
 
-.languages-dropdown {
+#languages-dropdown {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 8px;
-  
   position: absolute;
   width: 40px;
   height: 40px;
-  right: 26px;
-  top: calc(50% - 40px/2);
-  
+  right: 50px;
+  top: 563px;
   border-radius: 8px;
+  transform: rotate (90 deg);
 }
 
 .languages {
   position: absolute;
   height: 24px;
-  left: 12px;
+  left: 36px;
   right: 78px;
-  top: calc(50% - 24px/2);
+  top: 571px;
   /* Body / 1 - Bolder */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -683,6 +690,8 @@ h1 {
   gap: 12px;
   width: 327px;
   height: 248.15px;
+  top: 619 px;
+  left: 24px;
 }
 
 .languagelist .jsbox {
@@ -691,6 +700,8 @@ h1 {
   /* Neutrals/N10 */
   background: #F7F7F9;
   border-radius: 8px;
+  left: 36px;
+  top: 631px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -732,6 +743,8 @@ h1 {
   /* Neutrals/N10 */
   background: #F7F7F9;
   border-radius: 8px;
+  left: 36px;
+  top: 709.72;
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -743,7 +756,8 @@ h1 {
   height: 24px;
   left: 112px;
   right: 48px;
-  top: 730.72;
+  top: 730.72px;
+  bottom: 508.28px;
   /* Body / 3 - Bolder */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -771,6 +785,8 @@ h1 {
 .languagelist .cssbox {
   width: 303px;
   height: 66.72px;
+  top: 788.43px;
+  left: 36px;
   /* Neutrals/N10 */
   background: #F7F7F9;
   border-radius: 8px;
@@ -783,9 +799,9 @@ h1 {
 .csstext {
   position: absolute;
   height: 24px;
-  left: 76px;
+  left: 112px;
   right: 12px;
-  top: calc(50% - 24px/2 - 0.36px);
+  top: 809.43px;
   /* Body / 3 - Bolder */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -804,8 +820,8 @@ h1 {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 12px;
-  top: calc(50% - 48px/2 - 0.36px);
+  left: 48px;
+  top: 797.43px;
   background: url(images.jpg);
   /* Neutrals/N0 */
   border: 1px solid #FFFFFF;
