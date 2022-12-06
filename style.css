@@ -340,7 +340,7 @@ h1 {
   width: 55px;
   height: 16px;
   /* Caption / 1 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -358,7 +358,7 @@ h1 {
   width: 89px;
   height: 16px;
   /* Caption / 1 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -378,7 +378,7 @@ h1 {
   width: 29px;
   height: 16px;
   /* Caption / 1 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -465,7 +465,7 @@ h1 {
 .seeproject {
   height: 24px;
   /* Button /Normal */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -505,17 +505,15 @@ h1 {
   gap: 12px;
   width: 327px;
   height: 409px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  top: 114px;
+  left: 24px;
  }
 
  .top .heading {
   width: 327px;
   height: 101px;
   /* Header / 2 */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -532,7 +530,7 @@ h1 {
   width: 327px;
   height: 144px;
   /* Body / 2 */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -566,7 +564,7 @@ h1 {
   width: 117px;
   height: 24px;
   /* Body / 2 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -602,7 +600,7 @@ h1 {
   border: 1px solid #6070FF;
   border-radius: 8px;
   /* Button /Normal */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -664,7 +662,7 @@ h1 {
   right: 78px;
   top: calc(50% - 24px/2);
   /* Body / 1 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -716,7 +714,7 @@ h1 {
   right: 48px;
   top: 652px;
   /* Body / 3 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -747,7 +745,7 @@ h1 {
   right: 48px;
   top: 730.72;
   /* Body / 3 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -770,8 +768,6 @@ h1 {
   border: 1px solid #FFFFFF;
 }
 
-/*
-
 .languagelist .cssbox {
   width: 303px;
   height: 66.72px;
@@ -784,8 +780,6 @@ h1 {
   flex-grow: 0;
 }
 
-
-/*
 .csstext {
   position: absolute;
   height: 24px;
@@ -793,7 +787,7 @@ h1 {
   right: 12px;
   top: calc(50% - 24px/2 - 0.36px);
   /* Body / 3 - Bolder */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -806,8 +800,6 @@ h1 {
   
 }
 
-
-/*
 .cssimage {
   position: absolute;
   width: 48px;
@@ -819,3 +811,102 @@ h1 {
   border: 1px solid #FFFFFF;
 }
 
+.frame8 {
+  width: 327px;
+  height: 72px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.seperator1 {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  /* Neutrals/N40 */
+  background: #DFE1E6;
+}
+
+.chevron1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  top: calc(50% - 40px/2);
+  border-radius: 8px;
+}
+
+.frameworks {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px/2)
+  /* Body / 1 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  color: #000000; 
+}
+
+.frame9 {
+  width: 327px;
+  height: 72px;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.seperator2 {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  /* Neutrals/N40 */
+  background: #DFE1E6;
+}
+
+.chevron2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  top: calc(50% - 40px/2);
+  border-radius: 8px;
+}
+
+.skills {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px/2); 
+  /* Body / 1 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  color: #000000;  
+}
