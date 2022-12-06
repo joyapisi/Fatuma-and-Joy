@@ -573,7 +573,7 @@ h1 {
   line-height: 24px;
   /* identical to box height, or 150% */
   /* Primary/B300 */
-  color: #7F8CFF;
+  color: hsl(234, 100%, 75%);
 
 }
 
@@ -588,24 +588,19 @@ h1 {
 }
 
 .action .normalbutton2 {
+  box-sizing: border-box;
+  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: center;
+  
   padding: 12px;
   gap: 10px;
-  width: 162px;
+  position: absolute;
+  width: 165px;
   height: 48px;
-  /* Primary/B400 */
   border: 1px solid #6070FF;
   border-radius: 8px;
-  /* Inside auto layout */
-  flex: none;
-  order: 3;
-  flex-grow: 0;
- }
-
-.getresume {
-  
   /* Button /Normal */
   font-family: 'Poppins';
   font-style: normal;
@@ -613,11 +608,69 @@ h1 {
   font-size: 17px;
   line-height: 24px;
   /* identical to box height, or 141% */
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   /* Primary/B500 */
-  color: #396DF2;
+  color: #396df2;
+}
 
+.skillslist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 327px;
+  height: 464.15px;
+  margin-top: 40px; /*could change to space around or space between boxes*/
+}
+
+.frame12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 327px;
+  height: 320.15px;
+}
+
+.frame7 {
+  width: 327px;
+  height: 72px;
+}
+
+#languages-seperator {
+  
+}
+
+.languages-dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  top: calc(50% - 40px/2);
+  
+  border-radius: 8px;
+}
+
+.languages {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px/2);
+  /* Body / 1 - Bolder */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  color: #000000; 
 }
