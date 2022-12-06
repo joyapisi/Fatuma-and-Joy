@@ -496,7 +496,7 @@ h1 {
   margin-top: 170%;
  }
 
-.aboutme .top {
+.top {
   gap: 24px;
   position: absolute;  
   width: 375px;
@@ -506,7 +506,7 @@ h1 {
   margin-top: 170%;
  }
 
- .aboutme .heading {
+ .top .heading {
   width: 327px;
   height: 101px;
   /* Header / 2 */
@@ -523,7 +523,7 @@ h1 {
   margin-top: 170%;
  }
 
-#aboutme-paragraph {
+.top #paragraph {
   width: 327px;
   height: 144px;
   /* Body / 2 */
@@ -555,7 +555,7 @@ h1 {
   flex-grow: 0;
 }
   
-.secondheading5 {
+.socialmedia .secondheading5 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -569,7 +569,7 @@ h1 {
   flex-grow: 0;
 }
 
-.skills .frame1 {
+.socialmedia .frame1 {
  
 }
 
