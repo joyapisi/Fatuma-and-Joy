@@ -300,8 +300,8 @@ h1 {
 }
 
 .works {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 10px auto;
   align-items: center;
   padding: 114px 24px;
   gap: 88px;
