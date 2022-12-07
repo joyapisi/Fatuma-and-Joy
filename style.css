@@ -554,7 +554,7 @@ h1 {
   height: 80px;
 }
   
-.socialmedia .secondheading5 {
+.socialmedia #secondheading5 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -615,7 +615,7 @@ h1 {
   padding: 0px;
   width: 327px;
   height: 464.15px;
-  margin-top: 40px; /*could change to space around or space between boxes*/
+  top: 547px; /*could change to space around or space between boxes*/
 }
 
 .frame12 {
